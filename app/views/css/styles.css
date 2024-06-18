@@ -1,0 +1,119 @@
+/* INDEX */
+.logo {
+    margin-right: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header{
+    background-color: #00cece;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+main{
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.bem-vindas{
+    display: flex;
+    justify-content: center;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.boxes-meio{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.box1{
+    background-color: #00cece;
+    width: 400px;
+    height: 500px;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.box1 h1{
+    text-align: center;
+}
+
+.box2{
+    background-color: #00cece;
+    width: 400px;
+    height: 500px;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.box2 h1{
+    text-align: center;
+}
+
+.box3{
+    background-color: #00cece;
+    width: 400px;
+    height: 500px;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.box3 h1{
+    text-align: center;
+}
+
+/* FIM INDEX */
+
+/* PRODUTOS */
+
+.txt{
+    display: flex;
+    justify-content: center;
+}
+
+.produtos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.produto1, .produto2, .produto3, .produto4{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+/* FIM PRODUTOS */
+
+/* CARRINHO */
+.carrinho-txt{
+    display: flex;
+    justify-content: center;
+}
+/* FIM CARRINHO */
